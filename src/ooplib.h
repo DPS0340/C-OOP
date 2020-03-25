@@ -10,9 +10,4 @@ struct _String {
     int (*del)(String string);
 };
 
-char* assign(String, const char*);
-char* get(String);
-int cmp(String, const char*);
-int del(String);
-
 String String_init(const char*, int);
